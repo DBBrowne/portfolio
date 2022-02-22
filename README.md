@@ -16,17 +16,19 @@ Add projects to `src/data/projects.json`:
 ```js
   {
     "id": 0,
-    "title": "",
-    "summary": "",
+    "title": "<short string>", // Around 75 chars?
+    "summary": "<medium string>", // Around 100 chars?
     "links":{
-      "github": "",
-      "deploy": "",
-      "caseStudy": ""
+      "github": "<url>",
+      "deploy": "<url>",
+      "caseStudy": "<url>"
     },
     "images":{
-      "cover":"",
-      "secondary":""
-    }
+      "logo":"<imgUrl>",
+      "cover":"<imgUrl>",
+      "secondary":"<imgUrl>"
+    },
+    "description":"<long string>" // Around 300 chars?
   }
 ```
 ### Usage Title
