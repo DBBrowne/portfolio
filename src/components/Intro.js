@@ -1,6 +1,8 @@
 import logo from '../assets/logo.svg'
+import projects from '../data/projects.json'
 
 export default function Intro () {
+  console.log(projects)
   return (
     <div className="App">
       <header className="App-header">
