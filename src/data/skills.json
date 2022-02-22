@@ -1,0 +1,9 @@
+{
+  "front-end":["JavaScipt", "React.js", "SASS", "Bulma", "Bootstrap"],
+  "back-end":[
+    "Node.js", "MongoDB", "Mongoose", "Python 3", "Django", "Insomnia", "TablePlus"
+  ],
+  "tools":["Postman", "Thunder Client", "Git", "cloudinary"],
+  "deployment":["Heroku", "Netlify"],
+  "design":["Miro"]
+  }
