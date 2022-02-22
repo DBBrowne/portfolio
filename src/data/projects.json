@@ -1,17 +1,66 @@
 [
   {
-    "id": 0,
-    "title": "",
-    "summary": "",
+    "id": 3,
+    "title": "Testing Lib for code challenges", 
+    "summary": "A super-simple testing lib with 0 dependencies, to make it easier to verify success and learn a little more about the performance of various solutions.", 
     "links":{
-      "github": "",
+      "github": "https://github.com/DBBrowne/code-challenges-public",
       "deploy": "",
-      "caseStudy": ""
+      "caseStudy": "https://github.com/DBBrowne/code-challenges-public"
     },
     "images":{
-      "cover":"",
+      "logo":"https://user-images.githubusercontent.com/72463218/155158340-ff69286e-f491-44e8-979b-ce1bd1dfe33c.png",
+      "cover":"https://user-images.githubusercontent.com/72463218/155156843-093795f0-9d9f-4f13-95b0-20b0b2356942.png",
       "secondary":""
     },
-    "description":""
+    "description":"Exploring testing and code challenges." 
+  },
+  {
+    "id": 2,
+    "title": "Placebook",
+    "summary": "Share your travel adventure routes and photos",
+    "links":{
+      "github": "github.com/DBBrowne/sei-project-three-backend",
+      "deploy": "placebook.dbb.tools",
+      "caseStudy": "github.com/DBBrowne/sei-project-three-backend"
+    },
+    "images":{
+      "logo":"https://camo.githubusercontent.com/415f76b0bc75bdd0a32dd5ed758db017d764687fb4d905eda183d1d9b0316635/68747470733a2f2f692e696d6775722e636f6d2f7a6255387339342e706e67",
+      "cover":"https://user-images.githubusercontent.com/72463218/154768547-94a57a19-4a19-4a2c-a470-1d84ab16cf01.png",
+      "secondary":"https://user-images.githubusercontent.com/72463218/154768395-516eea32-2e39-4f75-acd3-e30e30f18a75.png"
+    },
+    "description":"MERN full stack web application, with authentication built as coursework for General Assembly's Software Engineering Immersive.<br>Users share memorable (or dream) trips by storing collections of geotagged images with notes, and viewing those trips as polylines on a map."
+  },
+    {
+    "id": 1,
+    "title": "CompCoin", 
+    "summary": "Cryptocurrency pair conversion spot rates and time histories", 
+    "links":{
+      "github": "github.com/DBBrowne/project-two-sei",
+      "deploy": "compcoin.dbb.tools",
+      "caseStudy": "github.com/DBBrowne/project-two-sei"
+    },
+    "images":{
+      "logo":"https://user-images.githubusercontent.com/72463218/155155154-88c514ca-f15e-4ae0-836d-68e740586da5.png",
+      "cover":"https://user-images.githubusercontent.com/72463218/154111327-1f1ec2d3-facd-47d5-b691-5c1638fb7d6f.png",
+      "secondary":"https://user-images.githubusercontent.com/72463218/154111244-041d772d-7a09-4f9d-b732-3d346111d356.png"
+    },
+    "description":"React FE to gather data via API requests, and present to user" 
+  },
+    {
+    "id": 0,
+    "title": "teNtris", 
+    "summary": "n-player, n-sized playfield Tetris, with customisable shapes", 
+    "links":{
+      "github": "github.com/DBBrowne/ga-sei-projectone",
+      "deploy": "tentris.dbb.tools",
+      "caseStudy": "github.com/DBBrowne/ga-sei-projectone"
+    },
+    "images":{
+      "logo":"https://user-images.githubusercontent.com/72463218/155159629-80a8043f-031b-4948-81a8-76afe06c0d4d.png",
+      "cover":"https://user-images.githubusercontent.com/72463218/154482287-a9489ad1-9c7a-44c3-8795-5c84717207ee.png",
+      "secondary":"https://user-images.githubusercontent.com/72463218/154381809-3460974a-ccbb-4d5c-bc86-a793fb0ba526.gif"
+    },
+    "description":"HTML, CSS, commonJS implementation of tetris, built my first piece of coursework for General Assembly's Software Engineering Immersive." 
   }
 ]
