@@ -1,15 +1,15 @@
 [
   {
     "id": 3,
-    "title": "Testing Lib for code challenges", 
-    "summary": "A super-simple testing lib with 0 dependencies, to make it easier to verify success and learn a little more about the performance of various solutions.", 
+    "title": "Testing Lib and code challenges", 
+    "summary": "A super-simple testing lib with 0 dependencies, to make it easier to verify success and learn a little more about the performance of various solutions.<br>Plus some completed challenges.", 
     "links":{
       "github": "https://github.com/DBBrowne/code-challenges-public",
       "deploy": "",
       "caseStudy": "https://github.com/DBBrowne/code-challenges-public"
     },
     "images":{
-      "logo":"https://user-images.githubusercontent.com/72463218/155158340-ff69286e-f491-44e8-979b-ce1bd1dfe33c.png",
+      "logo":"https://user-images.githubusercontent.com/72463218/155291196-9f47f459-a1c6-4e0c-96d5-b394f37c4313.svg",
       "cover":"https://user-images.githubusercontent.com/72463218/155156843-093795f0-9d9f-4f13-95b0-20b0b2356942.png",
       "secondary":""
     },

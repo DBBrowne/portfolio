@@ -1,0 +1,26 @@
+{
+  "github":{
+    "logoUrl":"",
+    "logoAltText":"GitHub",
+    "badgeText":"GitHub",
+    "badgeLinkUrl":"github.com/DBBrowne"
+  },
+  "linkedin":{
+    "logoUrl": "",
+    "logoAltText":"linked in",
+    "badgeText": "LinkedIn",
+    "badgeLinkUrl":"linkedin.com/in/duncan-browne/"
+  },
+  "stackoverflow":{
+    "logoUrl": "",
+    "logoAltText":"stack overflow",
+    "badgeText": "Stack Overflow",
+    "badgeLinkUrl":"stackoverflow.com/users/15995918/duncan-browne"
+  },
+  "codewars":{
+    "logoUrl": "https://docs.codewars.com/logo.svg",
+    "logoAltText":"codewars",
+    "badgeText": "codewars",
+    "badgeLinkUrl":"codewars.com/users/dbbrowne/completed_solutions"
+  }
+}
