@@ -1,5 +1,5 @@
 import logo from '../assets/logo.svg'
-import projects from '../data/projects.json'
+import projects from '../content/projects.json'
 
 export default function Intro () {
   console.log(projects)

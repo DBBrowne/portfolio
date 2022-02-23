@@ -1,5 +1,6 @@
-# Title
+# Portfolio
 A simple portfolio site.
+One repo, no database required.
 
 ## Contents
 - [Title](#title)
@@ -12,12 +13,13 @@ A simple portfolio site.
 ## Demos
 
 ## Usage
-Add projects to `src/data/projects.json`:
+Add list content to `src/content`
+Add projects to `src/content/projects.json`:
 ```js
   {
     "id": 0,
-    "title": "<short string>", // Around 75 chars?
-    "summary": "<medium string>", // Around 100 chars?
+    "title": "<string short>", // Around 75 chars?
+    "summary": "<string medium>", // Around 100 chars?
     "links":{
       "github": "<url>",
       "deploy": "<url>",
@@ -28,11 +30,22 @@ Add projects to `src/data/projects.json`:
       "cover":"<imgUrl>",
       "secondary":"<imgUrl>"
     },
-    "description":"<long string>" // Around 300 chars?
+    "description":"<string long>" // Around 300 chars?
   }
 ```
-### Usage Title
-Overview usage
+Badges for display as footer links:
+`src/content/badges.json`
+```js
+  "<sire>":{
+    "logoUrl":"<imgUrl - will pull from logosExternal if not declared here and a match is found>",
+    "logoAltText":"<string - logo text>",
+    "badgeText":"<string - displayed text>",
+    "badgeLinkUrl":"<string - >"
+  },
+
+```
+### Portfolio
+
 
 ## Technologies
 [React](https://github.com/facebook/create-react-app)
@@ -55,3 +68,4 @@ Deploy build folder.
 
 ## Future Features
     - `npm run eject` and configure webpack for dev mode.  Do not need to see full build stats on every refresh.  Or [Craco](https://github.com/gsoft-inc/craco), once CRA structure is better understood.
+    - get a random octocat from the github octodex?  This appears to require scraping [octodex.github.com](octodex.github.com)

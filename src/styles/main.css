@@ -1,0 +1,54 @@
+:root{
+  --font-color-default: gainsboro;
+  --font-color-nav: var(--font-color-default);
+  --badge-background-color: black;
+  --badge-font-color: var(--font-color-default);
+  --color-link: #118bee;
+}
+Link, a {
+  text-decoration: none;
+}
+html {
+  color:var(--font-color-default);
+}
+nav {
+  position: absolute;
+}
+
+nav a {
+  color: var(--font-color-nav);
+  display: block;
+  margin: 0.5rem 0 0 5vw;
+}
+
+.social-badges-container{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.social-badge {
+  display: flex;
+  align-content: center;
+  margin: 0.5em;
+  border: 1px var(--badge-font-color) solid;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  color: var(--badge-font-color);
+}
+.social-badge>img {
+  height: 1.5em;
+  object-fit:contain;
+}
+
+.endtag{
+  display: flex;
+  font-size: 0.5em;
+}
+.endtag span {
+  margin-left: auto;
+}
+
+/* Utility classes */
+.text-titlecase{
+  text-transform: capitalize;
+}
