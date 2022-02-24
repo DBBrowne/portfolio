@@ -9,12 +9,14 @@ function App() {
   return (
     <BrowserRouter>
       <Nav />
-      <section>
-        <Routes>
-          <Route exact path="/" element={<Intro />} />
-        </Routes>
+      <main className='body-container'>
+        <section>
+          <Routes>
+            <Route exact path="/" element={<Intro />} />
+          </Routes>
+        </section>
         <Footer />
-      </section>
+      </main>
     </BrowserRouter>
   )
 }

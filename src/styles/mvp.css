@@ -23,7 +23,7 @@
     --width-card: 285px;
     --width-card-medium: 460px;
     --width-card-wide: 800px;
-    --width-content: 1080px;
+    --width-content: 900px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -62,9 +62,9 @@ body {
 footer,
 header,
 main {
-    margin: 0 auto;
+    margin: 0.5rem auto;
     max-width: var(--width-content);
-    padding: 3rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 hr {

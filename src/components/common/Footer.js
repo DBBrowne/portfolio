@@ -7,7 +7,7 @@ const thisYear = new Date().getFullYear()
 export default function Footer () {
   return (
     <footer>
-      <ul className='social-badges-container'>
+      <ul className='social-badges-container button'>
         {Object.keys(badges).map(badgeKey => (
           <SocialBadge key={badges[badgeKey].badgeText} {...badges[badgeKey]} />
         ))}

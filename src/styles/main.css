@@ -1,26 +1,55 @@
+*{
+  box-sizing: border-box;
+}
 :root{
   --font-color-default: gainsboro;
   --font-color-nav: var(--font-color-default);
-  --badge-background-color: black;
+  --nav-color-hover: #6200ee;
+  --badge-background-color: transparent;
   --badge-font-color: var(--font-color-default);
-  --color-link: #118bee;
+  --color-link: #bb86fc;
+  --main-surface-color:#121212;
 }
 Link, a {
   text-decoration: none;
 }
 html {
   color:var(--font-color-default);
+  height: 100vh;
+}
+body, #root {
+  height: 100%;
+}
+main {
+  display: flex;
+  border-radius: 0.5em;
+  background-color: var(--main-surface-color);
 }
 nav {
-  position: absolute;
+  position: fixed;
 }
-
 nav a {
   color: var(--font-color-nav);
   display: block;
   margin: 0.5rem 0 0 5vw;
 }
+a:hover{
+  text-decoration: none;
+  background-color: var(--nav-color-hover);
+  padding:0.2em;
+}
 
+
+.body-container {
+  height: 100%;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 1vw;
+}
 .social-badges-container{
   display: flex;
   justify-content: center;
@@ -42,10 +71,11 @@ nav a {
 
 .endtag{
   display: flex;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 .endtag span {
   margin-left: auto;
+  margin-bottom: 0.5em;
 }
 
 /* Utility classes */
