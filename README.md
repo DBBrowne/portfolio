@@ -67,5 +67,8 @@ npm run build
 Deploy build folder.
 
 ## Future Features
+    - half 1920width screen optimiszations: 
+        - burgerise nav menu?
+    - toggle to leave dark mode
     - `npm run eject` and configure webpack for dev mode.  Do not need to see full build stats on every refresh.  Or [Craco](https://github.com/gsoft-inc/craco), once CRA structure is better understood.
     - get a random octocat from the github octodex?  This appears to require scraping [octodex.github.com](octodex.github.com)

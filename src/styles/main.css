@@ -1,54 +1,93 @@
+/* https://material.io/design/color/dark-theme.html#properties */
+
 *{
   box-sizing: border-box;
 }
 :root{
   --font-color-default: gainsboro;
+
+  --bg-elevation-1:rgba(255,255,255,0.05);
+  --bg-elevation-2:rgba(255,255,255,0.07);
+  --bg-elevation-3:rgba(255,255,255,0.09);
+
   --font-color-nav: var(--font-color-default);
   --nav-color-hover: #6200ee;
   --badge-background-color: transparent;
   --badge-font-color: var(--font-color-default);
   --color-link: #bb86fc;
-  --main-surface-color:#121212;
+  --main-surface-color: var(--bg-elevation-1);
+  --color-bg: #121212;
+  --color-shadow: #bbbbbb20;
+}
+/* lock to dark mode colours for MVP */
+@media (prefers-color-scheme: light) {
+    :root {
+        --color: var(--color);
+        --color-accent: --color-accent;
+        --color-bg: var(--color-bg);
+        --color-bg-secondary:var(--color-bg-secondary) ;
+        --color-link: var(--color-link);
+        --color-secondary: var(--color-secondary);
+        --color-secondary-accent:var(--color-secondary-accent) ;
+        --color-shadow: var(--color-shadow);
+        --color-table: var(--color-table);
+        --color-text: var(--color-text);
+        --color-text-secondary:var(--color-text-secondary);
+    }
 }
 Link, a {
   text-decoration: none;
 }
 html {
   color:var(--font-color-default);
-  height: 100vh;
-}
-body, #root {
   height: 100%;
 }
+body, #root {
+  /* height: 100%; */
+  height: calc(100% - 0.5em);
+}
 main {
-  display: flex;
+  height:100%;
   border-radius: 0.5em;
   background-color: var(--main-surface-color);
+  display: flex;
+  flex-direction: column;
 }
 nav {
   position: fixed;
+  flex-direction: column;
+  align-items: flex-start;
+}
+nav h1 {
+  margin-left:2vw;
+  margin-bottom: 0;
+}
+nav ul {
+  margin-top: 0;
 }
 nav a {
   color: var(--font-color-nav);
   display: block;
-  margin: 0.5rem 0 0 5vw;
+  margin: 0.5rem 0 0 3vw;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  border-radius: 0.2em;
+}
+nav a:hover{
+  padding-left: 1em;
 }
 a:hover{
   text-decoration: none;
   background-color: var(--nav-color-hover);
-  padding:0.2em;
-}
-
-
-.body-container {
-  height: 100%;
-  flex-direction: column;
+  padding-top:0.2em;
+  padding-bottom:0.2em;
+  color: var(--font-color-nav);
 }
 
 footer {
   margin-top: auto;
   margin-bottom: 0;
-  font-size: 1vw;
+  font-size: 0.9em;
 }
 .social-badges-container{
   display: flex;
@@ -58,6 +97,8 @@ footer {
 .social-badge {
   display: flex;
   align-content: center;
+  justify-content: center;
+  min-width: fit-content;
   margin: 0.5em;
   border: 1px var(--badge-font-color) solid;
   padding: 0.2em 0.4em;
