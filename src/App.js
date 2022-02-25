@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import About from './components/About'
-import Nav from './components/common/Nav'
-import Footer from './components/common/Footer'
-import Projects from './components/Projects'
+import About from './containers/About'
+import Nav from './containers/common/Nav'
+import Footer from './containers/common/Footer'
+import Projects from './containers/Projects'
 
 
 function App() {

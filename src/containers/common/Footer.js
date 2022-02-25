@@ -1,4 +1,4 @@
-import SocialBadge from './lib/SocialBadge'
+import SocialBadge from '../../components/common/Footer/SocialBadge'
 import { badges, about } from '../../content'
 
 const thisYear = new Date().getFullYear()
