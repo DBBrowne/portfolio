@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { about } from '../../content'
 
 export default function Nav () {
@@ -6,11 +6,11 @@ export default function Nav () {
     <nav>
       <h1>{about.firstName}</h1>
       <ul>
-        <Link to="/" className="text-titlecase">about</Link>
-        <Link to="/blog" className="text-titlecase">blog</Link>
-        <Link to="/projects" className="text-titlecase">projects</Link>
-        <Link to="/technologies" className="text-titlecase">technologies</Link>
-        <Link to="/contact" className="text-titlecase">contact</Link>
+        <NavLink exact to="/" className="text-titlecase" >about</NavLink>
+        <NavLink to="/blog" className="text-titlecase"activeStyle={{ color: 'red' }} activeClassName="active">blog</NavLink>
+        <NavLink to="/projects" className="text-titlecase"activeStyle={{ color: 'red' }} activeClassName="active">projects</NavLink>
+        <NavLink to="/technologies" className="text-titlecase"activeStyle={{ color: 'red' }} activeClassName="active">technologies</NavLink>
+        <NavLink to="/contact" className="text-titlecase"activeStyle={{ color: 'red' }} activeClassName="active">contact</NavLink>
       </ul>
     </nav>
   )

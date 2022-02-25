@@ -1,10 +1,13 @@
-import projects from '../content/projects.json'
+import { about } from '../content'
 
 export default function About () {
-  console.log(projects)
   return (
-    <div>
-      <pre>Hi, my name is</pre>
+    <div className="about-wrapper">
+      <pre>Hi, my name is </pre>
+      <h1>{about.firstName}</h1>
+      <p dangerouslySetInnerHTML={{
+        __html: about.intro,
+      }}></p>
     </div>
   )
 }
