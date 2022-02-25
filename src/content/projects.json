@@ -13,7 +13,10 @@
       "cover":"https://user-images.githubusercontent.com/72463218/155156843-093795f0-9d9f-4f13-95b0-20b0b2356942.png",
       "secondary":""
     },
-    "description":"Exploring testing and code challenges." 
+    "description":"Exploring testing and code challenges." ,
+    "tags":[
+      "JavaScript", "Python"
+    ]
   },
   {
     "id": 2,
@@ -29,7 +32,10 @@
       "cover":"https://user-images.githubusercontent.com/72463218/154768547-94a57a19-4a19-4a2c-a470-1d84ab16cf01.png",
       "secondary":"https://user-images.githubusercontent.com/72463218/154768395-516eea32-2e39-4f75-acd3-e30e30f18a75.png"
     },
-    "description":"MERN full stack web application, with authentication built as coursework for General Assembly's Software Engineering Immersive.<br>Users share memorable (or dream) trips by storing collections of geotagged images with notes, and viewing those trips as polylines on a map."
+    "description":"MERN full stack web application, with authentication built as coursework for General Assembly's Software Engineering Immersive.<br>Users share memorable (or dream) trips by storing collections of geotagged images with notes, and viewing those trips as polylines on a map.",
+    "tags":[
+      "JavaScript", "MongoDB", "Express", "React", "Node", "Bootstrap", "MapBox", "FullStack", "App"
+    ]
   },
     {
     "id": 1,
@@ -45,7 +51,10 @@
       "cover":"https://user-images.githubusercontent.com/72463218/154111327-1f1ec2d3-facd-47d5-b691-5c1638fb7d6f.png",
       "secondary":"https://user-images.githubusercontent.com/72463218/154111244-041d772d-7a09-4f9d-b732-3d346111d356.png"
     },
-    "description":"React FE to gather data via API requests, and present to user" 
+    "description":"React FE to gather data from a third-party API, process that data, and present it to the user",
+    "tags":[
+      "JavaScript", "React", "Node", "CoinBase API", "App", "Bulma"
+    ] 
   },
     {
     "id": 0,
@@ -61,6 +70,9 @@
       "cover":"https://user-images.githubusercontent.com/72463218/154482287-a9489ad1-9c7a-44c3-8795-5c84717207ee.png",
       "secondary":"https://user-images.githubusercontent.com/72463218/154381809-3460974a-ccbb-4d5c-bc86-a793fb0ba526.gif"
     },
-    "description":"HTML, CSS, commonJS implementation of tetris, built my first piece of coursework for General Assembly's Software Engineering Immersive." 
-  }
+    "description":"HTML, CSS, commonJS implementation of tetris, built my first piece of coursework for General Assembly's Software Engineering Immersive.",
+    "tags":[
+      "JavaScript", "HTML", "CSS", "CoinBase API", "App", "Bulma"
+    ]
+  } 
 ]

@@ -30,17 +30,20 @@ Add projects to `src/content/projects.json`:
       "cover":"<imgUrl>",
       "secondary":"<imgUrl>"
     },
-    "description":"<string long>" // Around 300 chars?
+    "description":"<string long>", // Around 300 chars?
+    "tags":[
+      "<string>", "<string>", ...
+    ]
   }
 ```
 Badges for display as footer links:
 `src/content/badges.json`
 ```js
-  "<sire>":{
+  "<site>":{
     "logoUrl":"<imgUrl - will pull from logosExternal if not declared here and a match is found>",
     "logoAltText":"<string - logo text>",
     "badgeText":"<string - displayed text>",
-    "badgeLinkUrl":"<string - >"
+    "badgeLinkUrl":"<imgUrl - string - >"
   },
 
 ```
