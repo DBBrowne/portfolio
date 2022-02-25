@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Intro from './components/Intro'
+import About from './components/About'
 import Nav from './components/common/Nav'
 import Footer from './components/common/Footer'
 
@@ -12,7 +12,7 @@ function App() {
       <main className='body-container'>
         <section>
           <Routes>
-            <Route exact path="/" element={<Intro />} />
+            <Route exact path="/" element={<About />} />
           </Routes>
         </section>
         <Footer />

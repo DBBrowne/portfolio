@@ -13,7 +13,7 @@ export default function Footer () {
         ))}
       </ul>
       <div className='endtag'>
-        <span>{thisYear}, {about.name}</span>
+        <span>{thisYear}, {about.fullName}</span>
       </div>
     </footer>
   )
