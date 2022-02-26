@@ -17,8 +17,8 @@ function App() {
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </section>
-        <Footer />
       </main>
+      <Footer />
     </BrowserRouter>
   )
 }

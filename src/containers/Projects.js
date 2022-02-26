@@ -3,15 +3,14 @@ import { projects } from '../content'
 
 export default function Projects () {
   return (
-    <>
-      <h2>Projects</h2>
+    <div className='projects container'>
       {
         projects.map(project => {
           return (
-            <ProjectCard key={project.id}/>
+            <ProjectCard key={project.id} project={project}/>
           )
         })
       }
-    </>
+    </div>
   )
 }

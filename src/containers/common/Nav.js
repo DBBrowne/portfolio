@@ -12,6 +12,7 @@ export default function Nav () {
         >about</NavLink>
         <NavLink
           to="/blog"
+          className="text-titlecase"
         >blog</NavLink>
         <NavLink 
           to="/projects"

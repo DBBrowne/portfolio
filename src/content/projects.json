@@ -21,7 +21,7 @@
   {
     "id": 2,
     "title": "Placebook",
-    "summary": "Share your travel adventure routes and photos",
+    "summary": "Share your travel adventure routes and photos.",
     "links":{
       "github": "github.com/DBBrowne/sei-project-three-backend",
       "deploy": "placebook.dbb.tools",
