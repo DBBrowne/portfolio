@@ -9,7 +9,10 @@ export default function Footer () {
     <footer>
       <ul className='social-badges-container button'>
         {Object.keys(badges).map(badgeKey => (
-          <SocialBadge key={badges[badgeKey].badgeText} {...badges[badgeKey]} />
+          <SocialBadge 
+            key={badges[badgeKey].badgeText} 
+            badgeData={badges[badgeKey]} 
+          />
         ))}
       </ul>
       <div className='endtag'>

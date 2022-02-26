@@ -1,6 +1,6 @@
-import { ReactComponent as DocsIcon } from '../../../assets/docsIcon.svg'
-import { ReactComponent as GithubIcon } from '../../../assets/githubIcon.svg'
-import { ReactComponent as LinkOutIcon } from '../../../assets/link-out-svgrepo-com.svg'
+import { ReactComponent as DocsIcon } from '../../assets/docsIcon.svg'
+import { ReactComponent as GithubIcon } from '../../assets/githubIcon.svg'
+import { ReactComponent as LinkOutIcon } from '../../assets/link-out-svgrepo-com.svg'
 
 export default function ProjectCard({ project }) {
   return (
