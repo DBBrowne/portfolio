@@ -7,7 +7,19 @@ function BadgeContent({ logoUrl, logoAltText, badgeText }){
   )
 }
 
-function LinkedBadgeContent({ logoUrl, logoAltText, badgeText, badgeLinkUrl }){
+function NoLinkBadge({ logoUrl, logoAltText, badgeText}){
+  return (
+    <div className="social-badge" >
+      <BadgeContent 
+        logoUrl = {logoUrl}
+        logoAltText = {logoAltText}
+        badgeText = {badgeText}
+      />
+    </div>
+  )
+}
+
+function LinkedBadge({ logoUrl, logoAltText, badgeText, badgeLinkUrl }){
   return (
     <a className="social-badge" href={badgeLinkUrl}>
       <BadgeContent 
@@ -20,11 +32,12 @@ function LinkedBadgeContent({ logoUrl, logoAltText, badgeText, badgeLinkUrl }){
 }
 
 export default function SocialBadge ({ badgeData }){
+  console.log(badgeData)
   return (
     <>
       {badgeData.badgeLinkUrl ? 
-        <LinkedBadgeContent {...badgeData} /> :
-        <BadgeContent {...badgeData} />
+        <LinkedBadge {...badgeData} /> :
+        <NoLinkBadge {...badgeData} />
       }
     </>
   )
