@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import About from './containers/About'
-import Nav from './containers/common/Nav'
 import Footer from './containers/common/Footer'
+import Nav from './containers/common/Nav'
 import Projects from './containers/Projects'
+import Technologies from './containers/Technologies'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/technologies" element={<Technologies />} />
           </Routes>
         </section>
       </main>
