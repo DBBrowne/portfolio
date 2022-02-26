@@ -223,6 +223,13 @@ footer {
   font-size: small;
 }
 
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-container {
+  height: fit-content;
+}
 
 /* Utility classes */
 .text-titlecase{
