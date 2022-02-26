@@ -58,6 +58,7 @@ main {
   flex-direction: column;
   overflow-y: scroll;
   scrollbar-width: none;
+  margin-top: 1em;
 }
 nav {
   position: fixed;
@@ -70,19 +71,19 @@ nav h1 {
 }
 nav ul {
   margin-top: 0;
-  width: 175px;
 }
 nav a {
   color: var(--font-color-nav);
   display: block;
   margin: 0.5rem 0 0 3vw;
   padding-left:0.5em;
-  padding-right:0.5em;
+  padding-right:1em;
   border-radius: 0.2em;
 }
 
 nav a:hover, nav a.active{
   padding-left: 1em;
+  padding-right:0.5em;
 }
 a:hover, a.active, a.active:hover{
   text-decoration: none;
@@ -148,7 +149,7 @@ footer {
 .project-card:nth-of-type(2n){
   align-items: flex-start;
 }
-.project-card>div{
+.project-card>.project-card-image-container{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -181,9 +182,9 @@ footer {
   max-width: 50%;
   padding: 1em;
   background-color: black;
-  z-index: 1;
   box-shadow: var(--box-shadow) var(--color-bg);
   border-radius: 7px;
+  z-index: 1;
 }
 
 .project-card ul {
@@ -203,6 +204,23 @@ footer {
   height:3.5em;
   width: 3.5em;
   padding: 0.5em;
+}
+.project-card .tags-container{
+  max-width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.project-card:nth-of-type(2n) .tags-container {
+  justify-content: flex-start;
+}
+.project-card .tag{
+  padding: 0.1em 0.2em;
+  margin-right: 1em;
+  border-radius: 3px;
+  background-color: var(--color-bg);
+  font-size: small;
 }
 
 

@@ -1,7 +1,7 @@
 [
   {
     "id": 3,
-    "title": "Testing Lib and code challenges", 
+    "title": "Testing Lib and Code Challenges", 
     "summary": "A super-simple testing lib with 0 dependencies, to make it easier to verify success and learn a little more about the performance of various solutions.<br>Plus some completed challenges.", 
     "links":{
       "github": "https://github.com/DBBrowne/code-challenges-public",
@@ -23,9 +23,9 @@
     "title": "Placebook",
     "summary": "Share your travel adventure routes and photos.",
     "links":{
-      "github": "github.com/DBBrowne/sei-project-three-backend",
-      "deploy": "placebook.dbb.tools",
-      "caseStudy": "github.com/DBBrowne/sei-project-three-backend"
+      "github": "https://github.com/DBBrowne/sei-project-three-backend",
+      "deploy": "https://placebook.dbb.tools",
+      "caseStudy": "https://github.com/DBBrowne/sei-project-three-backend"
     },
     "images":{
       "logo":"https://camo.githubusercontent.com/415f76b0bc75bdd0a32dd5ed758db017d764687fb4d905eda183d1d9b0316635/68747470733a2f2f692e696d6775722e636f6d2f7a6255387339342e706e67",
@@ -42,9 +42,9 @@
     "title": "CompCoin", 
     "summary": "Cryptocurrency pair conversion spot rates and time histories", 
     "links":{
-      "github": "github.com/DBBrowne/project-two-sei",
-      "deploy": "compcoin.dbb.tools",
-      "caseStudy": "github.com/DBBrowne/project-two-sei"
+      "github": "https://github.com/DBBrowne/project-two-sei",
+      "deploy": "https://compcoin.dbb.tools",
+      "caseStudy": "https://github.com/DBBrowne/project-two-sei"
     },
     "images":{
       "logo":"https://user-images.githubusercontent.com/72463218/155155154-88c514ca-f15e-4ae0-836d-68e740586da5.png",
@@ -61,9 +61,9 @@
     "title": "teNtris", 
     "summary": "n-player, n-sized playfield Tetris, with customisable shapes", 
     "links":{
-      "github": "github.com/DBBrowne/ga-sei-projectone",
-      "deploy": "tentris.dbb.tools",
-      "caseStudy": "github.com/DBBrowne/ga-sei-projectone"
+      "github": "https://github.com/DBBrowne/ga-sei-projectone",
+      "deploy": "https://tentris.dbb.tools",
+      "caseStudy": "https://github.com/DBBrowne/ga-sei-projectone"
     },
     "images":{
       "logo":"https://user-images.githubusercontent.com/72463218/155159629-80a8043f-031b-4948-81a8-76afe06c0d4d.png",
