@@ -5,6 +5,7 @@
 }
 :root{
   --font-color-default: gainsboro;
+  --font-color-muted: grey;
 
   --bg-elevation-1:rgba(255,255,255,0.05);
   --bg-elevation-2:rgba(255,255,255,0.07);
@@ -12,11 +13,11 @@
 
   --font-color-nav: var(--font-color-default);
   --nav-color-hover: #6200ee;
-  --nav-color-active: #30007e;
+  --nav-color-active: #4300b1;
 
   --badge-background-color: transparent;
   --badge-font-color: var(--font-color-default);
-  --color-link: #bb86fc;
+  --color-link: #6250ee;
   --main-surface-color: var(--bg-elevation-1);
   --color-bg: #121212;
   --color-shadow: #bbbbbb20;
@@ -26,17 +27,17 @@
 /* lock to dark mode colours for MVP */
 @media (prefers-color-scheme: light) {
     :root {
-        --color: var(--color);
-        --color-accent: --color-accent;
-        --color-bg: var(--color-bg);
-        --color-bg-secondary:var(--color-bg-secondary) ;
-        --color-link: var(--color-link);
-        --color-secondary: var(--color-secondary);
-        --color-secondary-accent:var(--color-secondary-accent) ;
-        --color-shadow: var(--color-shadow);
-        --color-table: var(--color-table);
-        --color-text: var(--color-text);
-        --color-text-secondary:var(--color-text-secondary);
+        --color: #0097fc;
+        --color-accent: #0097fc4f;
+        --color-bg: #121212;
+        --color-bg-secondary: #555;
+        --color-link: #6250ee;
+        --color-secondary: #e20de9;
+        --color-secondary-accent: #e20de94f;
+        --color-shadow: #bbbbbb20;
+        --color-table: #0097fc;
+        --color-text: #f7f7f7;
+        --color-text-secondary: #aaa;
     }
 }
 Link, a {
@@ -59,6 +60,9 @@ main {
   overflow-y: scroll;
   scrollbar-width: none;
   margin-top: 1em;
+}
+a {
+  border-radius: 0.3em;
 }
 nav {
   position: fixed;
@@ -95,6 +99,10 @@ a:hover, a.active, a.active:hover{
 a.active{
   background-color: var(--nav-color-active);
 }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, p a:hover, span a:hover {
+  padding-top:unset;
+  padding-bottom:unset;
+}
 
 .about-wrapper>h1, .about-wrapper>pre{
   display: inline;
@@ -123,9 +131,10 @@ footer {
   border-radius: 0.2em;
   color: var(--badge-font-color);
 }
-.social-badge>img {
+.social-badge>img, .social-badge>svg {
   height: 1.5em;
-  object-fit:contain;
+  width: 1.7em;
+  object-fit: contain;
 }
 .endtag{
   display: flex;
@@ -134,6 +143,38 @@ footer {
 .endtag span {
   margin-left: auto;
   margin-bottom: 0.5em;
+}
+
+.recent-projects-container{
+  display: block;
+  columns: 3;
+  gap: 1rem;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+}
+.recent-projects-container ul{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.project-text{
+  break-inside: avoid;
+  font-size: 0.8em;
+  width: 250px;
+  padding: 0.8em;
+  margin-top: 1em;
+  border-radius: 10px;
+  background-color: var(--color-bg);
+  box-shadow: var(--box-shadow) var(--color-bg);
+  height: fit-content;
+}
+.project-text h3{
+  margin-top: 0;
 }
 
 .project-card {
@@ -199,27 +240,30 @@ footer {
   display: flex;
   border-radius: 5px;
 }
-.project-card ul svg, .project-card ul img {
+.project-links-list svg, .project-links-list img {
   object-fit: contain;
   height:3.5em;
   width: 3.5em;
   padding: 0.5em;
 }
-.project-card .tags-container{
-  max-width: 30%;
+.tags-container{
   display: flex;
-  justify-content: flex-end;
   flex-wrap: wrap;
+}
+.project-card .tags-container{
   z-index: 1;
+  justify-content: flex-end;
+  max-width: 30%;
 }
 .project-card:nth-of-type(2n) .tags-container {
   justify-content: flex-start;
 }
-.project-card .tag{
-  padding: 0.1em 0.2em;
-  margin-right: 1em;
+.tag{
+  padding: 0.1em 0.5em;
+  margin-right: 0.5em;
   border-radius: 3px;
-  background-color: var(--color-bg);
+  color: var(--font-color-muted);
+  /* background-color: var(--color-bg); */
   font-size: small;
 }
 
