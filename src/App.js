@@ -1,9 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Intro from './components/Intro'
-import Nav from './components/common/Nav'
-import Footer from './components/common/Footer'
-
+import About from './containers/About'
+import Contact from './containers/Contact'
+import Footer from './containers/common/Footer'
+import Nav from './containers/common/Nav'
+import Projects from './containers/Projects'
+import Technologies from './containers/Technologies'
 
 function App() {
   return (
@@ -12,11 +14,14 @@ function App() {
       <main className='body-container'>
         <section>
           <Routes>
-            <Route exact path="/" element={<Intro />} />
+            <Route exact path="/" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/technologies" element={<Technologies />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </section>
-        <Footer />
       </main>
+      <Footer />
     </BrowserRouter>
   )
 }

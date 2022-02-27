@@ -30,17 +30,20 @@ Add projects to `src/content/projects.json`:
       "cover":"<imgUrl>",
       "secondary":"<imgUrl>"
     },
-    "description":"<string long>" // Around 300 chars?
+    "description":"<string long>", // Around 300 chars?
+    "tags":[
+      "<string>", "<string>", ...
+    ]
   }
 ```
 Badges for display as footer links:
 `src/content/badges.json`
 ```js
-  "<sire>":{
-    "logoUrl":"<imgUrl - will pull from logosExternal if not declared here and a match is found>",
+  "<site>":{
+    "logo":"<imgUrl - will pull from logosExternal if not declared here and a match is found>",
     "logoAltText":"<string - logo text>",
     "badgeText":"<string - displayed text>",
-    "badgeLinkUrl":"<string - >"
+    "badgeLinkUrl":"<imgUrl - string - >"
   },
 
 ```
@@ -67,5 +70,8 @@ npm run build
 Deploy build folder.
 
 ## Future Features
+    - half 1920width screen optimiszations: 
+        - burgerise nav menu?
+    - toggle to leave dark mode
     - `npm run eject` and configure webpack for dev mode.  Do not need to see full build stats on every refresh.  Or [Craco](https://github.com/gsoft-inc/craco), once CRA structure is better understood.
     - get a random octocat from the github octodex?  This appears to require scraping [octodex.github.com](octodex.github.com)
