@@ -40,7 +40,7 @@ Badges for display as footer links:
 `src/content/badges.json`
 ```js
   "<site>":{
-    "logoUrl":"<imgUrl - will pull from logosExternal if not declared here and a match is found>",
+    "logo":"<imgUrl - will pull from logosExternal if not declared here and a match is found>",
     "logoAltText":"<string - logo text>",
     "badgeText":"<string - displayed text>",
     "badgeLinkUrl":"<imgUrl - string - >"
