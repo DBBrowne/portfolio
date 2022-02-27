@@ -5,10 +5,18 @@ import _projects from './content/projects.json'
 import _skills from './content/skills.json'
 import _logosExternal from './content/logosExternal.json'
 
+
+// import {ReactComponent as }
+
 // set badge logo url from external resources if not in badges
 Object.keys(_badges).forEach(key => {
-  if (!(_badges[key].logoUrl)){
-    _badges[key].logoUrl = _logosExternal[key]
+  if (!(_badges[key].logo)){
+    _badges[key].logo = _logosExternal[key]
+  }
+})
+Object.keys(_contact).forEach(key => {
+  if (!(_contact[key].logo)){
+    _contact[key].logo = _logosExternal[key]
   }
 })
 

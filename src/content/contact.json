@@ -1,5 +1,20 @@
 {
-  "github":"github.com/DBBrowne",
-  "email":"portfolio@dbb.tools",
-  "linkedIn":"linkedin.com/in/duncan-browne/"
+  "email":{
+    "logo":"",
+    "logoAltText":"GitHub",
+    "badgeText":"portfolio@dbb.tools",
+    "badgeLinkUrl":"mailto:portfolio@dbb.tools"
+  },
+    "github":{
+    "logo":"",
+    "logoAltText":"GitHub",
+    "badgeText":"github.com/DBBrowne",
+    "badgeLinkUrl":"https://github.com/DBBrowne"
+  },
+  "linkedin":{
+    "logo": "",
+    "logoAltText":"linked in",
+    "badgeText": "linkedin.com/in/duncan-browne/",
+    "badgeLinkUrl":"https://linkedin.com/in/duncan-browne/"
+  }
 }
