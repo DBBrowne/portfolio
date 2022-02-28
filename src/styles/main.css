@@ -84,11 +84,14 @@ nav a {
   padding-right:1em;
   border-radius: 0.2em;
 }
-
 nav a:hover, nav a.active{
   padding-left: 1em;
   padding-right:0.5em;
 }
+nav svg {
+    display: none;
+}
+
 a:hover, a.active, a.active:hover{
   text-decoration: none;
   background-color: var(--nav-color-hover);
@@ -293,8 +296,45 @@ iframe .hero{
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 600px){
-  .social-badge span {
+@media screen and (max-width: 1350px){
+  nav h1{
+    display: none;
+  }
+  nav {
+    right: calc(100vw - 4em);
+    z-index: 1;
+  }
+  nav:hover{
+    right:unset;
+    background-color: var(--color-bg);
+    border-radius: 1em;
+  }
+  nav ul a {
+    font-size: 1.7em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav a.text-titlecase{
+    color: transparent;
+  }
+  nav a.text-titlecase:not(.active) svg{
+    display: none;
+  }
+  nav:hover a.text-titlecase{
+    color: var(--font-color-nav);
+  }
+  nav a.text-titlecase svg {
+    display: initial;
+    width: 1.3em;
+    height:100%;
+  }
+  nav:hover a.text-titlecase svg {
+    display: none;
+  }
+
+  footer .social-badge span {
     display: none;
   }
 }
