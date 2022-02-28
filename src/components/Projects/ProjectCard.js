@@ -8,6 +8,7 @@ export default function ProjectCard({ project }) {
           <img 
             src={project.images.cover} 
             alt={project.title.toLowerCase()}
+            loading="lazy"
           />
         </a>
       </div>

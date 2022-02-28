@@ -1,31 +1,36 @@
 import { NavLink } from 'react-router-dom'
 import { about } from '../../content'
+import { ReactComponent as LeftArrow } from '../../assets/left-arrow-svgrepo-com.svg'
+
+function WrappedNavLink({ link }){
+  return (
+    <NavLink
+      to={link.to}
+      className="text-titlecase"
+    >
+      <span>{link.text || link.to}</span>
+      <LeftArrow />
+    </NavLink>
+  )
+}
+const links = [
+  { to: '', text: 'about' },
+  { to: 'blog' },
+  { to: 'projects' },
+  { to: 'technologies' },
+  { to: 'contact' }
+]
 
 export default function Nav () {
   return (
     <nav>
       <h1>{about.firstName}</h1>
       <ul>
-        <NavLink
-          to="/"
-          className="text-titlecase"
-        >about</NavLink>
-        <NavLink
-          to="/blog"
-          className="text-titlecase"
-        >blog</NavLink>
-        <NavLink 
-          to="/projects"
-          className="text-titlecase"
-        >projects</NavLink>
-        <NavLink
-          to="/technologies"
-          className="text-titlecase"
-        >technologies</NavLink>
-        <NavLink 
-          to="/contact"
-          className="text-titlecase"
-        >contact</NavLink>
+        {
+          links.map(link => {
+            return <WrappedNavLink key={link.to} link={link} />
+          })
+        }
       </ul>
     </nav>
   )
