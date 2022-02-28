@@ -2,6 +2,7 @@
 
 *{
   box-sizing: border-box;
+  transition: right 0.5s;
 }
 :root{
   --font-color-default: gainsboro;
@@ -291,17 +292,17 @@ iframe {
     display: none;
   }
   nav {
-    right: calc(100vw - 4em);
-    z-index: 1;
+    right: calc(100vw - 4rem);
+    z-index: 10;
     margin-top: 10vh;
   }
   nav:hover{
-    right:unset;
+    right: calc(100vw - 15rem);
     background-color: var(--color-bg);
     border-radius: 1em;
   }
   nav ul a {
-    font-size: 1.7em;
+    font-size: 1.5rem;
     border-radius: 1em;
     display: flex;
     align-items: center;
@@ -318,7 +319,7 @@ iframe {
   }
   nav a.text-titlecase svg {
     display: initial;
-    width: 1.3em;
+    width: 2rem;
     height:100%;
   }
   nav:hover a.text-titlecase svg {
