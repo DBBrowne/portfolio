@@ -21,7 +21,7 @@ function NoLinkBadge({ logo, logoAltText, badgeText }){
 
 function LinkedBadge({ logo, logoAltText, badgeText, badgeLinkUrl }){
   return (
-    <a className="social-badge" href={badgeLinkUrl}>
+    <a className="social-badge" href={badgeLinkUrl} rel="noopener noreferrer" target="_blank">
       <BadgeContent 
         logo = {logo}
         logoAltText = {logoAltText}

@@ -19,7 +19,9 @@ export default function ProjectCardText ({ project }){
           return (
             <a 
               key={target}
-              href={project.links[target]}
+              href={project.links[target] || project.links.github}
+              rel="noopener noreferrer"
+              target="_blank" 
               aria-label={`${project.title} Github`}
             >
               {icons[target]()}

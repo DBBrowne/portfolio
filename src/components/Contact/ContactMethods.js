@@ -10,7 +10,9 @@ export default function ContactMethods () {
             <a 
               className='social-badge contact'
               href={contact[method].badgeLinkUrl}
-              key={contact[method].badgeText} 
+              key={contact[method].badgeText}
+              rel="noopener noreferrer"
+              target="_blank" 
             >
               {icons[method]()}
               <span> {contact[method].badgeText}</span>
