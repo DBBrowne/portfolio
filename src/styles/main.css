@@ -287,10 +287,6 @@ iframe {
   filter:brightness(0.8);
 }
 
-iframe .hero{
-  background-color: red;
-}
-
 /* Utility classes */
 .text-titlecase{
   text-transform: capitalize;
