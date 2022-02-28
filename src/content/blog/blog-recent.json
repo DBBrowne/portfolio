@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Blog: Jest and Mongoose",
+    "summary":"Beginner pitfalls with building automated tests that compare JS objects with mongoose objects.",
+    "links":{
+      "caseStudy": "https://dbbrowne.github.io/blog/blog/an-adventure-in-automated-testing-with-jest-and-mongoose/"
+    }
+  },
+    {
+    "title": "Blog: Promises and Reduce",
+    "summary":"Promise._forEach is interesting. Async functions return a promise. Reduce's first parameter is <b><em>previous</em></b>.",
+    "links":{
+      "caseStudy": "https://dbbrowne.github.io/blog/blog/an-adventure-in-automated-testing-with-jest-and-mongoose/"
+    }
+  }
+]

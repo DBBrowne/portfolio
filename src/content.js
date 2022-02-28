@@ -4,6 +4,7 @@ import _contact from './content/contact.json'
 import _projects from './content/projects.json'
 import _skills from './content/skills.json'
 import _logosExternal from './content/logosExternal.json'
+import _blogRecent from './content/blog/blog-recent.json'
 
 
 // import {ReactComponent as }
@@ -26,3 +27,4 @@ export const contact = _contact
 export const projects = _projects
 export const skills = _skills
 export const logosExternal = _logosExternal
+export const blogRecent = _blogRecent

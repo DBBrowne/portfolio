@@ -8,7 +8,7 @@ export default function ProjectCardText ({ project }){
 
       <div className='tags-container'>
         {
-          project.tags.map(tag=>{
+          project.tags && project.tags.map(tag=>{
             return (<span className="tag" key={tag}>{tag}</span>)
           })
         }

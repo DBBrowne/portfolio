@@ -1,5 +1,21 @@
 import ProjectCardText from '../components/Projects/ProjectCardText'
-import { about, projects } from '../content'
+import { about, projects, blogRecent } from '../content'
+
+// interleave projects and blogs
+const totalProjectCards = (projects.length + blogRecent.length)
+const recentProjectCards = []
+let projectsCounter = 0
+let blogCounter = 0
+while (recentProjectCards.length < totalProjectCards){
+  if (blogCounter < blogRecent.length){
+    recentProjectCards.push(blogRecent[blogCounter])
+    blogCounter++
+  }
+  if (projectsCounter < projects.length){
+    recentProjectCards.push(projects[projectsCounter])
+    projectsCounter++
+  }
+}
 
 export default function About () {
   return (
@@ -17,7 +33,7 @@ export default function About () {
       </h3>
       <div className='recent-projects-container'>
         {
-          projects.map(project=>{
+          recentProjectCards.map(project=>{
             return (
               <div className="project-text" key={project.title}>
                 <ProjectCardText 
