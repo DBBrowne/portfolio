@@ -1,5 +1,5 @@
 {
-  "front-end":["JavaScipt", "React.js", "SASS", "Bulma", "Bootstrap"],
+  "front-end":["JavaScript", "React.js", "SASS", "Bulma", "Bootstrap"],
   "back-end":[
     "Node.js", "Express","MongoDB", "Mongoose", "Python 3", "Django", "Insomnia", "TablePlus"
   ],
