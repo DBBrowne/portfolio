@@ -6,6 +6,7 @@ import Footer from './containers/common/Footer'
 import Nav from './containers/common/Nav'
 import Projects from './containers/Projects'
 import Technologies from './containers/Technologies'
+import Blog from './containers/Blog'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/technologies" element={<Technologies />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </section>
       </main>

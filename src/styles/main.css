@@ -278,6 +278,16 @@ footer {
   height: fit-content;
 }
 
+iframe {
+  width: 100%;
+  height:90vh;
+  filter:brightness(0.8);
+}
+
+iframe .hero{
+  background-color: red;
+}
+
 /* Utility classes */
 .text-titlecase{
   text-transform: capitalize;
