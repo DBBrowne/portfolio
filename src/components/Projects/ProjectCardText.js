@@ -1,6 +1,10 @@
 import { icons } from '../../assets/icons'
 
 export default function ProjectCardText ({ project }){
+  const ulClasslist = (undefined === project.links.deploy) ?
+    'project-links-list blog-summary-links' : 
+    'project-links-list'
+
   return (
     <>
       <h3>{project.title}</h3>
@@ -14,7 +18,7 @@ export default function ProjectCardText ({ project }){
         }
       </div>
         
-      <ul className='project-links-list'>
+      <ul className={ulClasslist}>
         {Object.keys(project.links).map((target=>{
           return (
             <a 

@@ -172,6 +172,7 @@ footer {
   background-color: var(--color-bg);
   box-shadow: var(--box-shadow) var(--color-bg);
   height: fit-content;
+  position: relative;
 }
 .project-text h3{
   margin-top: 0;
@@ -263,6 +264,10 @@ footer {
   color: var(--font-color-muted);
   /* background-color: var(--color-bg); */
   font-size: small;
+}
+.blog-summary-links a{
+  position: absolute;
+  bottom:0;
 }
 
 .technologies-container {
