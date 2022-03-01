@@ -14,5 +14,13 @@
       "caseStudy": "https://dbbrowne.github.io/blog/blog/an-adventure-in-automated-testing-with-jest-and-mongoose/"
     },
     "tags":["JavaScript", "Promises"]
+  },
+    {
+    "title": "Blog: CSS only burger menu",
+    "summary":"A no-JS burger menu",
+    "links":{
+      "caseStudy": "https://dbbrowne.github.io/blog/blog/pure-css-burger-menu/"
+    },
+    "tags":["CSS"]
   }
 ]
