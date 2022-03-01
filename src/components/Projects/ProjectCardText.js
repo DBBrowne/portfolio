@@ -22,7 +22,7 @@ export default function ProjectCardText ({ project }){
               href={project.links[target] || project.links.github}
               rel="noopener noreferrer"
               target="_blank" 
-              aria-label={`${project.title} Github`}
+              aria-label={`${project.title} ${target}`}
             >
               {icons[target]()}
             </a>
