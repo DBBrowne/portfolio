@@ -12,6 +12,12 @@ One repo, no database required.
 
 ## Demos
 
+Just a simple portfolio.
+Adjust content via the json files in `src/content`.
+
+|Check out the build of the CSS only mobile nav bar at [blog.dbb.tools](https://dbbrowne.github.io/blog/blog/pure-css-burger-menu/).|<img src="https://user-images.githubusercontent.com/72463218/156239739-ba76eefc-d217-49ba-8556-0d7688e9f92e.gif" alt="navbar demo" width="200"/>|
+|---|---|
+
 ## Usage
 Add list content to `src/content`
 Add projects to `src/content/projects.json`:
