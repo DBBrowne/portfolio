@@ -310,12 +310,14 @@ iframe {
   }
   nav a.text-titlecase{
     color: transparent;
+    width:100vw;
   }
   nav a.text-titlecase:not(.active) svg{
     display: none;
   }
   nav:hover a.text-titlecase{
     color: var(--font-color-nav);
+    width: unset;
   }
   nav a.text-titlecase svg {
     display: initial;
