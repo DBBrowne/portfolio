@@ -304,6 +304,9 @@ iframe {
     z-index: 10;
     margin-top: 10vh;
   }
+  nav a.active{
+    opacity: 0.85;
+  }
   nav:hover{
     right: calc(100vw - 15rem);
     background-color: var(--color-bg);
