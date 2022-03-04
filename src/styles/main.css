@@ -191,6 +191,9 @@ footer {
 .project-card:nth-of-type(2n){
   align-items: flex-start;
 }
+.project-card h3{
+  z-index:1;
+}
 .project-card>.project-card-image-container{
   position: absolute;
   width: 100%;
