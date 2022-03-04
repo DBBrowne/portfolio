@@ -1,6 +1,6 @@
 [
   {
-    "id": 3,
+    "id": 4,
     "title": "Testing Lib and Code Challenges", 
     "summary": "A super-simple testing lib with 0 dependencies, to make it easier to verify success and learn a little more about the performance of various solutions.<br>Plus some completed challenges.", 
     "links":{
@@ -16,6 +16,25 @@
     "description":"Exploring testing and code challenges." ,
     "tags":[
       "JavaScript", "Python"
+    ]
+  },
+    {
+    "id": 3,
+    "title": "Yamlise",
+    "summary": "Tiny, 0-dependency, JS object-to-YAML serialiser. Available on NPM.",
+    "links":{
+      "github": "https://github.com/DBBrowne/yamlise",
+      "deploy": "https://www.npmjs.com/package/@dbbrowne/yamlise",
+      "caseStudy": "https://github.com/DBBrowne/sei-project-three-backend"
+    },
+    "images":{
+      "logo":"",
+      "cover":"https://user-images.githubusercontent.com/72463218/156767409-a251cc9d-dfe4-4cf5-ba66-7f131f4e9463.png",
+      "secondary":""
+    },
+    "description":"Take input of any JS object.  Return object serialised as YAML.  Live on NPM.",
+    "tags":[
+      "YAML", "npm"
     ]
   },
   {

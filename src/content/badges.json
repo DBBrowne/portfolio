@@ -22,5 +22,11 @@
     "logoAltText":"codewars",
     "badgeText": "codewars",
     "badgeLinkUrl":"https://codewars.com/users/dbbrowne/completed_solutions"
+  },
+    "npm":{
+    "logo": "",
+    "logoAltText":"npm",
+    "badgeText": "npm",
+    "badgeLinkUrl":"https://www.npmjs.com/search?q=dbbrowne"
   }
 }

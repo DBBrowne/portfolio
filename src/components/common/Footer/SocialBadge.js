@@ -2,7 +2,7 @@ function BadgeContent({ logo, logoAltText, badgeText }){
   return (
     <>
       <img src={logo} alt={logoAltText || badgeText} />
-      <span>{badgeText}</span>
+      <span>&#160;{badgeText}</span>
     </>
   )
 }
