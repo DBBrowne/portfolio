@@ -1,4 +1,12 @@
 [
+    {
+    "title": "Blog: Node vs Python vs Rust",
+    "summary":"A case study of execution times across languages, and an investigation into branch predition failures",
+    "links":{
+      "caseStudy": "https://github.com/DBBrowne/obtuse-code-challenge-fuzzy-binary-search/blob/main/README.md"
+    },
+    "tags":["Rust", "Node", "Python"]
+  },
   {
     "title": "Blog: Jest and Mongoose",
     "summary":"Beginner pitfalls with building automated tests that compare JS objects with mongoose objects.",
