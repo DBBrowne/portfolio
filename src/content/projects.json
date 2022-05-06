@@ -1,5 +1,24 @@
 [
   {
+    "id": 5,
+    "title": "JS Pandas explode", 
+    "summary": "100% test coverage Javascript / Node implementation of Python's Pandas DataFrame#explode.", 
+    "links":{
+      "github": "https://github.com/DBBrowne/js-pandas-explode",
+      "deploy": "https://www.npmjs.com/package/@dbbrowne/js-pandas-explode",
+      "caseStudy": ""
+    },
+    "images":{
+      "logo":"",
+      "cover":"https://user-images.githubusercontent.com/72463218/167145883-997ea901-2015-44d7-84ea-f0b295a8d299.png",
+      "secondary":""
+    },
+    "description":"Exploring testing and code challenges." ,
+    "tags":[
+      "JavaScript", "Python"
+    ]
+  },
+  {
     "id": 4,
     "title": "Testing Lib and Code Challenges", 
     "summary": "A super-simple testing lib with 0 dependencies, to make it easier to verify success and learn a little more about the performance of various solutions.<br>Plus some completed challenges.", 
