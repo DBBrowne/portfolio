@@ -1,11 +1,11 @@
 [
   {
     "id": 5,
-    "title": "JS Pandas explode", 
+    "title": "JS DataFrame Explode", 
     "summary": "100% test coverage Javascript / Node implementation of Python's Pandas DataFrame#explode.", 
     "links":{
-      "github": "https://github.com/DBBrowne/js-pandas-explode",
-      "deploy": "https://www.npmjs.com/package/@dbbrowne/js-pandas-explode",
+      "github": "https://github.com/DBBrowne/js-dataframe-explode",
+      "deploy": "https://www.npmjs.com/package/@dbbrowne/js-dataframe-explode",
       "caseStudy": ""
     },
     "images":{
