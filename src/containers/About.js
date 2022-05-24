@@ -7,13 +7,13 @@ const recentProjectCards = []
 let projectsCounter = 0
 let blogCounter = 0
 while (recentProjectCards.length < totalProjectCards){
-  if (blogCounter < blogRecent.length){
-    recentProjectCards.push(blogRecent[blogCounter])
-    blogCounter++
-  }
   if (projectsCounter < projects.length){
     recentProjectCards.push(projects[projectsCounter])
     projectsCounter++
+  }
+  if (blogCounter < blogRecent.length){
+    recentProjectCards.push(blogRecent[blogCounter])
+    blogCounter++
   }
 }
 

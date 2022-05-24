@@ -1,6 +1,25 @@
 [
   {
     "id": 5,
+    "title": "Pokemon!", 
+    "summary": "React FE and ExpressJS REST  BE.  Consumes, caches and re-serves PokeAPI.  Largely TDD.  Deployed on AWS ECS behind load balancer and nginx reverse proxy.  CI pipeline with Github Actions to re-build and redeploy Docker containers to AWS.", 
+    "links":{
+      "github": "https://github.com/DBBrowne/simple-pokemon-app",
+      "deploy": "pokemon.dbb.tools",
+      "caseStudy": ""
+    },
+    "images":{
+      "logo":"",
+      "cover":"https://user-images.githubusercontent.com/72463218/170031655-e9550863-b93e-4702-8e82-859f84093893.png",
+      "secondary":""
+    },
+    "description":"Express + Caching + TDD + AWS + CI." ,
+    "tags":[
+      "AWS", "nginx", "Express", "React"
+    ]
+  },
+  {
+    "id": 5,
     "title": "JS DataFrame Explode", 
     "summary": "100% test coverage Javascript / Node implementation of Python's Pandas DataFrame#explode.", 
     "links":{
@@ -15,7 +34,7 @@
     },
     "description":"Exploring testing and code challenges." ,
     "tags":[
-      "JavaScript", "Python"
+    "JavaScript", "Python", "CI"
     ]
   },
   {
